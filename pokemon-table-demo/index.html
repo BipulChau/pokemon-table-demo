@@ -5,8 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon Table Demo</title>
+    <script defer src="/index.js"></script>
   </head>
   <body>
     <h1>Pokemon Table</h1>
+    <table id="poke-table">
+      <thead></thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Image</th>
+      </tr>
+      <tbody>
+        <tr></tr>
+      </tbody>
+    </table>
+    <div>
+      <label for="pokemon-id">Pokemon ID:</label>
+      <input type="number" id="pokemon-id" />
+    </div>
+    <div>
+      <button>Get Pokemon with .then .catch</button>
+      <button>Get Pokemon with async-await</button>
+    </div>
   </body>
 </html>
